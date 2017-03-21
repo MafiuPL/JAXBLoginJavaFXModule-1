@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.losK.controller.ComponentController">
+    <children>
+        <Pane>
+            <children>
+                <JFXTextField fx:id="productNameJFXTextField" alignment="TOP_CENTER" focusColor="#62d78b" labelFloat="true" layoutX="100.0" layoutY="45.0" prefWidth="400.0" promptText="Product Name" unFocusColor="#bc43c3">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </JFXTextField>
+                <JFXTextField fx:id="amountJFXTextField" alignment="TOP_CENTER" focusColor="#62d78b" labelFloat="true" layoutX="100.0" layoutY="115.0" prefWidth="400.0" promptText="Amount" unFocusColor="#b71bf7">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </JFXTextField>
+                <JFXTextField fx:id="priceJFXTextField" alignment="TOP_CENTER" focusColor="#62d78b" labelFloat="true" layoutX="100.0" layoutY="186.0" prefWidth="400.0" promptText="Price" unFocusColor="#a11919">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </JFXTextField>
+                <JFXTextField fx:id="taxJFXTextField" alignment="TOP_CENTER" focusColor="#62d78b" labelFloat="true" layoutX="100.0" layoutY="258.0" prefWidth="400.0" promptText="Tax">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </JFXTextField>
+            <JFXButton fx:id="addProductJFXButton" buttonType="RAISED" layoutX="100.0" layoutY="324.0" onAction="#addProductOnAction" ripplerFill="#200d5e" style="-fx-background-color: #ffffff;" text="Add Product" textFill="#8320b9" />
+            <JFXButton fx:id="clearJFXButton" buttonType="RAISED" layoutX="424.0" layoutY="324.0" onAction="#clearOnAction" ripplerFill="RED" style="-fx-background-color: #ffffff;" text="Clear" textFill="#8d0e21" />
+            </children>
+        </Pane>
+    </children>
+</StackPane>

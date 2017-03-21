@@ -61,7 +61,7 @@ public class MenuController extends Controller {
 
     @FXML
     void addProductOnAction(ActionEvent event) {
-        loadContentView("BillItemView");
+        loadContentView("ComponentView");
     }
 
     @FXML
